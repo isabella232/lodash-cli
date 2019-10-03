@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 'use strict';
 
-var _ = require('lodash'),
+var _ = require('@optimizely/lodash'),
     consts = require('../lib/const'),
     listing = require('../lib/listing'),
     mapping = require('../lib/mapping'),

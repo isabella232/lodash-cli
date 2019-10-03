@@ -316,6 +316,6 @@ lodash.first = lodash.head;
 
 // Add other properties.
 (lodash.templateSettings = templateSettings).imports._ = lodash;
-lodash.VERSION = require('lodash').VERSION;
+lodash.VERSION = require('@optimizely/lodash').VERSION;
 
 module.exports = lodash;

@@ -4,7 +4,7 @@
 var vm = require('vm');
 
 /** Load other modules. */
-var _ = require('lodash'),
+var _ = require('@optimizely/lodash'),
     build = require('../bin/lodash'),
     listing = require('../lib/listing'),
     mapping = require('../lib/mapping'),
